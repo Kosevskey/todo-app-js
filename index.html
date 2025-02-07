@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Todo App</title>
+    <meta charset="utf-8" >
+    <link rel="icon" href="images/favicon-3.png">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="header__title">Todo App</h1>
+            <h2 class="header__subtitle">Was ist zu tun?</h2>
+        </div>
+    </div>
+    <div class="container">
+        <form id="new-todo">
+            <input type="text" class="input" placeholder="Todo" name="text">
+            <button id="submit" class="button">Hinzufügen</button>
+        </form>
+        <div id="todos"></div>
+    </div>
+
+    <script type="module" src="/src/app.js"></script>
+</body>
+
+</html>
